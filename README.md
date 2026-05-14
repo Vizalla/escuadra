@@ -2,6 +2,15 @@
 
 > Plataforma de herramientas orientadas a distintas ramas de la ingeniería para resolver problemas técnicos de forma práctica.
 
+## Stack tecnológico
+
+El proyecto Escuadra utiliza Node.js como entorno principal de ejecución.
+
+### Tecnologías utilizadas
+- Node.js
+- JavaScript
+- npm
+
 ## ¿Qué es?
 
 Escuadra es un proyecto que integra diferentes herramientas diseñadas para apoyar el trabajo en diversas áreas de la ingeniería. Permite a los usuarios aplicar conceptos teóricos en situaciones reales mediante soluciones digitales.
