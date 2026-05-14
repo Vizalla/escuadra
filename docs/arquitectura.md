@@ -33,9 +33,9 @@ Cada módulo contiene herramientas específicas de su rama de ingeniería, permi
 
 | Componente | Tecnología | Versión | Justificación |
 |---|---|---|---|
-| **Lenguaje Base** | Python | 3.10+ | Facilidad para implementar lógica y cálculos |
-| **Framework API** | Flask | Actual | Permite exponer funcionalidades como servicios REST |
-| **Gestión de dependencias** | pip | N/A | Manejo sencillo mediante requirements.txt |
+| **Lenguaje Base** | JavaScript | ES6+ | Facilidad para desarrollo modular y herramientas dinámicas |
+| **Entorno de ejecución** | Node.js | Actual | Permite ejecutar herramientas y servicios del proyecto |
+| **Gestión de dependencias** | npm | Actual | Manejo sencillo mediante package.json |
 | **Documentación** | Markdown | N/A | Estándar para documentación en repositorios Git |
 
 ---
@@ -49,16 +49,16 @@ Cada módulo contiene herramientas específicas de su rama de ingeniería, permi
 
 ---
 
-### Decisión 2: Uso de API REST con Flask
-**Contexto:** Se requiere que las herramientas puedan ser consumidas externamente.  
-**Decisión:** Implementar una capa de API utilizando Flask.  
-**Consecuencias:** Facilita la integración con otras aplicaciones y servicios.
+### Decisión 2: Uso de Node.js
+**Contexto:** Se requiere un entorno flexible y sencillo para ejecutar herramientas y módulos del proyecto.
+**Decisión:** Utilizar Node.js como plataforma principal de ejecución.
+**Consecuencias:** Facilita la ejecución, mantenimiento e instalación del proyecto.
 
 ---
 
 ### Decisión 3: Consistencia Tecnológica
 **Contexto:** Es necesario mantener coherencia entre módulos.  
-**Decisión:** Usar Python como lenguaje base y pip para dependencias.  
+**Decisión:** Usar JavaScript con Node.js y npm para mantener consistencia tecnológica. 
 **Consecuencias:** Simplifica la instalación y mantenimiento del proyecto.
 
 ---
