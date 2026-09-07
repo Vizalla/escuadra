@@ -1,4 +1,4 @@
-# Instaladores Nativos por Plataforma
+# Instaladores Nativos por Plataforma.
 
 ## Descripcion general
 
